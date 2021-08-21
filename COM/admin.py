@@ -1,0 +1,20 @@
+from django.contrib import admin
+from COM.models import *
+# Register your models here.
+admin.site.register(EntityTypeMaster)
+admin.site.register(StateMaster)
+admin.site.register(DistrictMaster)
+admin.site.register(TalukaMaster)
+admin.site.register(VillageMaster)
+admin.site.register(BankMaster)
+admin.site.register(BranchMaster)
+admin.site.register(FactoryMaster)
+admin.site.register(SetupMaster)
+# admin.site.register(SmsInOut)
+admin.site.register(MemTypeMaster)
+admin.site.register(ReligionMaster)
+admin.site.register(OrganizationMaster)
+admin.site.register(CasteMaster)
+admin.site.register(EducationMaster)
+admin.site.register(RelationShipsMaster)
+admin.site.register(PersonMaster)
